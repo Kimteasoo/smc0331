@@ -5,9 +5,9 @@ public class Number {
 	public static void main(String[] args) {
 		
 		
-		System.out.print("10°³ÀÇ ·£´ı ¼ıÀÚ Áß ÇÏ³ª ¸ÂÃç(1~50±îÁö):");
-		Scanner sc=new Scanner(System.in);
-		int num =sc.nextInt();
+		System.out.print("10ê°œì˜ ëœë¤ ìˆ«ì ì¤‘ í•˜ë‚˜ ë§ì¶°(1~50ê¹Œì§€):");
+		Scanner sc=new Scanner(System.in); //ìŠ¤ìºë„ˆìƒì„±
+		int num =sc.nextInt(); 
 		int diff = 0;
 		int[]arr = new int[10];
 		
@@ -21,13 +21,13 @@ public class Number {
 			
 			for(int i=0; i<10; i++){
 			if(arr[i] == num){
-				System.out.println("´çÃ·!");
+				System.out.println("ë‹¹ì²¨!");
 			diff=1;
 			
 				
 			}
 		}  
-	if(diff==0) System.out.println("²Î");
+	if(diff==0) System.out.println("ê½");
 	}
 
 }
