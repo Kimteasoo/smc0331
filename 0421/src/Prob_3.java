@@ -8,7 +8,7 @@ public class Prob_3 {
 		me.math = scan.nextInt();
 		me.science = scan.nextInt();
 		me.english = scan.nextInt();
-		System.out.print("평균은"+me.average+"점수입니다");
+		System.out.print("평균은"+me.average()+"점수입니다");
 		
 		
 		
